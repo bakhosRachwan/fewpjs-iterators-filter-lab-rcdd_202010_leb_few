@@ -6,6 +6,6 @@ const findMatching = (arr, string) => {
 
 const fuzzyMatch = (arr, string) => {
   return arr.filter(x => {
-    return x.
+    return x.startsWith(string)
   })
 };
