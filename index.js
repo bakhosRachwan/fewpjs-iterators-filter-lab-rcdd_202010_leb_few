@@ -6,6 +6,6 @@ const findMatching = (arr, string) => {
 
 const fuzzyMatch = (arr, string) => {
   return arr.filter(x => {
-    return x.charAt(0) === string
+    return x.charAt(0) && x.charAt(1) === string
   })
 };
