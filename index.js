@@ -4,6 +4,8 @@ const findMatching = (arr, string) => {
   })
 };
 
-const fuzzyMatch = (drivers, string) => {
-  
+const fuzzyMatch = (arr, string) => {
+  return arr.filter(x => {
+    return x.charAt(0) === string
+  })
 };
