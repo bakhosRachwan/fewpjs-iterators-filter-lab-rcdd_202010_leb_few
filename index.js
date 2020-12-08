@@ -12,6 +12,6 @@ const fuzzyMatch = (arr, string) => {
 
 const matchName = (arr, string) => {
   return arr.filter(x => {
-    return x.
+    return x.name === string
   })
 };
