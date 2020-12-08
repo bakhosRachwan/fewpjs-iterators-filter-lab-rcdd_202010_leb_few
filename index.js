@@ -1,5 +1,5 @@
 const findMatching = (arr, string) => {
   return arr.filter(x => {
-    return x === string.toLowerCase()
+    return x === string
   })
 };
