@@ -3,3 +3,7 @@ const findMatching = (arr, string) => {
     return x.toLowerCase() === string.toLowerCase()
   })
 };
+
+const fuzzyMatch = (drivers, string) => {
+  
+};
